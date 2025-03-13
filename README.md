@@ -72,7 +72,7 @@ Follow these steps to get a local copy of AniFetch up and running.
 
 ### Prerequisites
 
-- **Python 3.8+** installed on your system.
+- **Python 3.11+** installed on your system.
 - A Discord bot token and the IDs for the channels where the bot will operate.
 - Required Python packages:
 
@@ -128,10 +128,13 @@ Detailed anime information is presented using visually appealing embeds, complet
 
 ## Features
 - 🔄 Automatic Data Refresh:
-    - Updates schedules and episode feeds every 15 minutes from multiple sources.
+    - Updates schedules and episode feeds every 15 minutes from GitHub repos + RapidAPI.
+    
+- ⚡ Rapid Updates: 
+    - 15-minute feed refreshes
 
 - 🔍 Slash Command Search:
-    - Easily search for dubbed, subbed, or hentai anime episodes directly from Discord.
+    - Easily search for dubbed or subbed release dates directly from Discord.
 
 - 🎨 Rich Embeds:
     - Presents detailed anime information with formatted dates, cover images, and episode airing times.
@@ -141,9 +144,19 @@ Detailed anime information is presented using visually appealing embeds, complet
 
 - 🛠️ Robust Logging & Error Handling:
     - Logs are output to both the console and a debug log file (anifetch-debug.log) to assist in troubleshooting.
+      
+- 🔒 Hentai Toggle:
+    - Optional NSFW channel support
 
+## Sources:
+
+   * RockinChaos/AniSchedule (GitHub)
+
+   * Anime Schedule API (RapidAPI)
+"Never miss a release - Get episode alerts in your Discord server with beautiful embeds and reliable scheduling!"
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 ## Launch Instructions
 
